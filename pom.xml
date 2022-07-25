@@ -56,7 +56,7 @@
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>3.0.3</version>
 				<configuration>
-					<appName>oakApp</appName>
+					<appName>oakchainisysapp</appName>
 				</configuration>
 			</plugin>
 			<plugin>
