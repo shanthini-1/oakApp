@@ -25,12 +25,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<!-- tomcat embeded jsp compiler -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-			<!-- uncomment below if deploying in web container -->
+			uncomment below if deploying in web container
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<!-- JSTL Dependency -->
 		<dependency>
 			<groupId>javax.servlet.jsp.jstl</groupId>
@@ -62,7 +62,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>copy-dependencies</id>
